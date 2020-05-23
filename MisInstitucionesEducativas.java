@@ -4,6 +4,7 @@
 2. El nombre de su Escuela.
 3. El nombre de su Colegio.
 4. El nombre de su universidad.
+5. Ingrese el nombre de su carrera.
  */
 package misinstitucioneseducativas;
 
@@ -36,9 +37,11 @@ public class MisInstitucionesEducativas {
         String colegio=objeto.nextLine (); 
 
         System.out.println("Ingrese su Universidad:");
-        String u=objeto.nextLine (); 
+        String universidad=objeto.nextLine (); 
 
-        
+        System.out.println("Ingrese su carrera:");
+        String carrera=objeto.nextLine (); 
+
         System.out.println("           GRACIAS POR SU ATENCION            ");
     }
     
